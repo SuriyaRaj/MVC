@@ -1,3 +1,3 @@
 FROM suriaraj/tomcat
 MAINTAINER suriaraj
-COPY "/var/lib/jenkins/workspace/ACD/target/SpringMVCHibernate.war /usr/tomcat/webapps"
+COPY "target/*.war /usr/tomcat/webapps"
