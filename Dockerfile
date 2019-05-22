@@ -1,4 +1,4 @@
 FROM suriaraj/tomcat
 MAINTAINER suriaraj
-COPY target/*.war /usr/tomcat/webapps/
+COPY target/*.war /usr/local/tomcat/webapps/
 
